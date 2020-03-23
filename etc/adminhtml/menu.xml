@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="MagArs_DigitalCodes::digital" title="Digital Codes" module="MagArs_DigitalCodes" sortOrder="120" resource="MagArs_DigitalCodes::digital" parent="Magento_Customer::customer"/>
+        <!--<add id="MagArs_Epay::order" title="Orders" module="MagArs_Epay" sortOrder="0" action="epay/order" resource="MagArs_Epay::order" parent="MagArs_Epay::epay"/>-->
+        <add id="MagArs_DigitalCodes::orderItem" title="Order Item" module="MagArs_DigitalCodes" sortOrder="1" action="epay/order/item" resource="MagArs_DigitalCodes::orderItem" parent="MagArs_DigitalCodes::digital"/>
+        <add id="MagArs_DigitalCodes::pending_orders" title="Pending Orders" module="MagArs_DigitalCodes" sortOrder="2" action="epay/pending/order" resource="MagArs_DigitalCodes::pending_orders" parent="MagArs_DigitalCodes::digital"/>
+    </menu>
+</config>
