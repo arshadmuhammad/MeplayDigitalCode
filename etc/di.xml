@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="MagArs\DigitalCodes\Api\Data\CodeInterface" type="MagArs\DigitalCodes\Model\Code" />
+    <preference for="MagArs\DigitalCodes\Api\Data\ProductCodeInterface" type="MagArs\DigitalCodes\Model\ProductCode" />
+    <preference for="MagArs\DigitalCodes\Api\Data\OrderInterface" type="MagArs\DigitalCodes\Model\Order" />
+    <preference for="MagArs\DigitalCodes\Api\Data\OrderItemInterface" type="MagArs\DigitalCodes\Model\OrderItem" />
+    <preference for="MagArs\DigitalCodes\Api\Data\OrderReferenceInterface" type="MagArs\DigitalCodes\Model\OrderReference" />
+</config>
